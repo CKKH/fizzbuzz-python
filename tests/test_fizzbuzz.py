@@ -27,11 +27,5 @@ class TestFizzbuzz(unittest.TestCase):
         result = fizzbuzz(15)
         self.assertEqual(result, 'fizzbuzz')
 
-    def test_fizzbuzz_30_returns_fizzbuzz(self):
-        """ Fizzbuzz(15) returns 'fizzbuzz' """
-
-        result = fizzbuzz(30)
-        self.assertEqual(result, 'fizzbuzz')
-
 if __name__ == '__main__':
     unittest.main()
